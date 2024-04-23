@@ -1,0 +1,458 @@
+body{
+    font-family: "Varela Round", sans-serif;
+ 
+}
+a{
+    text-decoration: none;
+}
+.vertical-line{
+color: white;
+}
+
+.special{
+    width: 74%;
+}
+
+.line{
+    width: 90%;
+    margin: 0 auto;
+    height: 2px;
+    background-color: gray;
+}
+li{
+    list-style: none;
+}
+header .top{
+    background-color: #ff9103;
+    height: 50px;
+    
+}
+header .top .left{
+    margin-top: 12px;
+}
+header .top .left a{
+color: white;
+}
+header .top .right{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 12px;
+}
+
+header .top .right a{
+    color: white;
+    margin-left: 5px;
+}
+
+header .top .right .firstA{
+margin-right: 5px;
+}
+header .bottom {
+    height: 80px;
+    background-color: white;
+}
+header .bottom .logo{
+    margin-top: 10px;
+}
+
+header .bottom .logo a img{
+    width: 100px;
+}
+header .bottom .navbar{
+    margin-top: 20px;
+}
+
+header .bottom .navbar ul {
+    display: flex; 
+}
+
+header .bottom .navbar ul li{
+    margin-left: 35px;
+}
+header .bottom .navbar ul li a{
+    color: #727272;
+}
+
+header .bottom .search-icon{
+display: flex;
+justify-content: flex-end;
+margin-top: 30px;
+}
+
+header .bottom .search-icon i{
+    font-size: 16px;
+    color: #727272;
+}
+
+#freenet .first-slider img{
+width: 100%;
+object-fit: cover;
+}
+
+
+#Advantages .container{
+    padding: 70px 0;
+}
+
+#Advantages .container .sectionname{
+    color: #727272;
+    text-align: center;
+}
+
+#Advantages .container .row .cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+
+#Advantages .container .row .cards .advantagecard{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-color: #EA8513;
+    border-radius: 10px;
+}
+
+
+#Advantages .container .row .cards .advantagecard .price{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 50px;
+    height: 70px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    color: #727272;
+}
+
+
+
+#Advantages .container .row .cards .advantagecard .title{
+    margin-top: 80px;
+    color: white;
+}
+
+
+
+#Advantages .container .row .cards .advantagecard .offers{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #E2E3DD;
+    width: 70%;
+    margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    align-items: center;
+}
+
+
+#Advantages .container .row .cards .advantagecard .offers h1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #F87400;
+}
+
+
+
+ 
+
+#Advantages .container .row .cards .advantagecard .offers h1 span{
+font-size: 25px;
+}
+
+
+#Advantages .container .row .cards .advantagecard  a{
+    background-color: #F87400;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+}
+
+
+#Plus{
+    width: 100%;
+    background-image: url(https://naxtel.az/wp-content/uploads/2019/06/naxtel_plus_background_en.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    background-color: #FF9100;
+}
+
+
+#Plus .container {
+    height: 100%;
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#Plus .container h1{
+    font-family: 'Varela Round';
+    color: #ffffff;
+    font-size: 218.75%;
+    text-shadow: none;
+    line-height: 1.5;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 500;
+}
+
+#Plus .container .nxtlogo{
+    width: 5%;
+}
+
+#Plus .container p{
+    font-size: 24px;
+    width: 30%;
+}
+
+#Plus .container .downloads{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+
+#Plus .container .downloads img{
+    width: 30%;
+}
+
+#Ouroffers{
+    padding: 70px 0;
+}
+
+#Ouroffers h1{
+    color: #727272;
+    text-align: center;
+    font-family: Varela Round;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#Ouroffers .container{
+    margin-top: 50px;
+}
+
+#Ouroffers .container .row .offercard{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+#Ouroffers .container .row .offercard .image{
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#Ouroffers .container .row .offercard .image img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+#Ouroffers .container .row .offercard .texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+#Ouroffers .container .row .offercard .texts a{
+    font-family: 'Montserrat', 'Arial';
+    color: #ff9100;
+    font-size: 87.5%;
+    text-shadow: none;
+    line-height: 1.5;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 400;
+    border: 1px solid #ff9100;
+    padding: 5px;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+
+#Ouroffers .container .row .offercard .texts a:hover{
+color: white;
+background-color: #ff9100;
+}
+
+
+#News{
+    padding: 70px;
+    background-color: #F8F8F8;
+}
+
+#News h1{
+text-align: center;
+margin-bottom: 30px;
+}
+
+#News .container .row {
+    justify-content: space-between;
+}
+
+#News .container .row .col-5 .time{
+    font-family: 'Work Sans', 'Arial';
+    color: #767f8b;
+    font-size: 75%;
+    text-shadow: none;
+    line-height: 1.5;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: 1px;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: bold;
+}
+#News .container .row .col-5 .title{
+    font-family: 'Varela Round';
+    color: #727272;
+    font-size: 125%;
+    text-shadow: none;
+    line-height: 1.5;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: 1px;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: bold;
+}
+
+#News .container .row .col-5 .desc{
+    
+    font-family: 'Work Sans', 'Arial';
+    color: #767f8b;
+    font-size: 87.5%;
+    text-shadow: none;
+    line-height: 1.5;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+}
+
+
+#News .container .row .col-5 a{
+    font-family: 'Varela Round';
+    color: #ff9100;
+    font-size: 75%;
+    text-shadow: none;
+    line-height: 1.5;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 400;
+    border: 1px solid #ff9100;
+    padding: 5px;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+#News .container .row .col-5 a:hover{
+    color: white;
+background-color: #ff9100;
+}
+
+footer{
+    padding: 70px 0 0 0 ;
+    background-color: #3C98A7;
+}
+
+footer .container .row ul{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+
+
+footer .container .row ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+footer .container .row ul li .footertitle{
+    font-weight: bold;
+}
+
+footer .socials {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: #2D727D;
+    padding: 10px 0;
+}
+
+footer  .socials .container h1{
+  font-size: 16px;
+  margin-left: 10px;
+  color: white;
+}
+
+footer .socials .container  .socialLinks{
+    display: flex;
+    gap: 10px;
+}
+
+
+footer .socials .container  .socialLinks .image {
+    width: 40px;
+    height: 40px;
+}
+
+
+footer  .socials .container .socialLinks .image a img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
